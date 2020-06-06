@@ -1,0 +1,12 @@
+apiVersion: 1
+
+providers:
+- name: 'blue'
+  orgId: 1
+  folder: 'blue'
+  type: file
+  disableDeletion: false
+  editable: true
+  options:
+    path: /var/grafana/dashboards/blue
+
