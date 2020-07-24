@@ -1,4 +1,4 @@
-# grafana-provision
+# grafana-provision at Kubernetes
 Grafana deployment with dynamic provisioning of dashboard and data source
 
 ```
