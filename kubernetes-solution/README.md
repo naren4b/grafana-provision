@@ -1,16 +1,13 @@
 # grafana-provision
-Create your own grafana image and provision dashboard and data sources
+Grafana deployment with dynamic provisioning of dashboard and data source
 
 ```
-docker build -t narenp/grafana:7.0.0.1 -f Dockerfile .
+kubectl apply -f manifests/
 
 ```
 
-Once tried with green project only You will see this dashboards
+Add new data source as secret
 
-![Green dashboard](/img/green.PNG)
+![Volume mount](img/volume-mount.PNG)
 
-
-Once tried with blue project only You will see this dashboards
-
-![Blue dashboard](/img/blue.PNG)
+![Volume ](img/volume.PNG)
