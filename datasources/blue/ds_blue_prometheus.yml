@@ -14,7 +14,7 @@ datasources:
   basicAuthUser: admin
   basicAuthPassword: foobar
   withCredentials:
-  isDefault: true
+  isDefault: false
   # <map> fields that will be converted to json and stored in json_data
   jsonData:
      graphiteVersion: "1.1"

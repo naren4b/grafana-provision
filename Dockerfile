@@ -9,6 +9,13 @@ COPY datasources/green/*.yml /etc/grafana/provisioning/datasources/
 COPY dashboards/green/*.json /var/grafana/dashboards/green/
 
 
+RUN mkdir -p /var/grafana/dashboards/blue
+COPY config/blue/*.yml /etc/grafana/provisioning/dashboards/
+COPY datasources/blue/*.yml /etc/grafana/provisioning/datasources/
+COPY dashboards/blue/*.json /var/grafana/dashboards/blue/
+
+
+
 # Install plugin in Image building
 RUN grafana-cli --pluginsDir=/var/grafana/plugins plugins install grafana-piechart-panel
 
