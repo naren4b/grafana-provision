@@ -3,10 +3,9 @@
 1. The Folder are already created if absent then create it 
 2. Dashboard should be updated each time this excersize is done 
 
-ref : https://grafana.com/docs/grafana/latest/http_api/dashboard/
-ref : https://grafana.com/docs/grafana/latest/http_api/folder/
-
-ref : https://www.baeldung.com/linux/jq-command-json
-ref : https://stedolan.github.io/jq/manual/#tonumber
+- ref : https://grafana.com/docs/grafana/latest/http_api/dashboard/
+- ref : https://grafana.com/docs/grafana/latest/http_api/folder/
+- ref : https://www.baeldung.com/linux/jq-command-json
+- ref : https://stedolan.github.io/jq/manual/#tonumber
 
 
