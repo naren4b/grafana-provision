@@ -15,7 +15,7 @@
   "editable": true,
   "gnetId": null,
   "graphTooltip": 0,
-  "id": 8,
+  "id": null,
   "links": [],
   "panels": [
     {
@@ -25,7 +25,7 @@
       "bars": false,
       "dashLength": 10,
       "dashes": false,
-      "datasource": "Prometheus-1",
+      "datasource": "prometheus-blue",
       "fill": 0,
       "fillGradient": 0,
       "gridPos": {
@@ -133,6 +133,6 @@
   },
   "timezone": "",
   "title": "blue_sample-dashoard",
-  "uid": "NZV70ImGk",
+  "uid": "blue-sample",
   "version": 4
 }
